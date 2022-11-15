@@ -1,0 +1,196 @@
+/* GENERAL STYLING */
+
+* {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(33, 33, 33, 1);
+}
+
+/* COMMON STYLING */
+.logo-header {
+  font-family: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.17;
+}
+
+.logo-header-front {
+  color: rgba(33, 150, 243, 1);
+}
+
+.header-contact-link {
+  color: rgba(117, 117, 117, 1);
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.17;
+}
+
+.header-contact-link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.header-contact-link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.03;
+}
+
+.nav-link:link {
+  color: rgba(33, 33, 33, 1);
+}
+
+.nav-link:visited {
+  color: rgba(33, 33, 33, 1);
+}
+
+.nav-link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.nav-link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.17;
+}
+
+.logo-footer-front {
+  color: rgba(33, 150, 243, 1);
+}
+
+.footer-links {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.footer-contact-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.footer-contact-link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+
+.street-address-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* INDEX.HTML STYLING */
+.header-slogan {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.36;
+}
+
+.order-button {
+  background-color: rgb(33, 150, 243);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.9;
+  border: none;
+  cursor: pointer;
+}
+
+.main-description-list {
+  list-style: none;
+}
+
+.main-description-header {
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.17;
+}
+
+.main-description-paragraph {
+  color: rgba(117, 117, 117, 1);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.hero-header {
+  font-size: 2rem;
+  line-height: 1.17;
+}
+
+.team-members-list {
+  list-style: none;
+  font-size: 1rem;
+  line-height: 1.17;
+}
+
+.employee-name {
+  font-weight: 500;
+}
+
+.job-name {
+  color: rgba(117, 117, 117, 1);
+}
+
+.work-specification-list {
+  list-style: none;
+}
+
+/* PORTFOLIO.HTML STYLING */
+.portfolio-nav-buttons {
+  list-style: none;
+}
+
+.nav-button {
+  background-color: rgb(245, 244, 250);
+  color: rgb(33, 33, 33);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: rgb(33, 150, 243);
+  color: rgb(255, 255, 255);
+}
+
+.nav-button:focus {
+  background-color: rgb(33, 150, 243);
+  color: rgb(255, 255, 255);
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.product-type {
+  color: rgba(117, 117, 117, 1);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.portfolio-list {
+  list-style: none;
+}
